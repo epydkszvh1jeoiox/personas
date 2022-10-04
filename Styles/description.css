@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#description {
+    border-top: 2px solid black;
+    padding-top: 25px;
+}
+
+#description.flex-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#description #description-text {
+    width: 700px;
+}
+
+#description #description-image {
+    text-align: center;
+    /*border: 2px #bebebd dotted;*/
+    box-shadow: 0px 0px 6px #bdbcba;
+}
+
+#description #description-image img {
+    width: 300px;
+}
+
+#description #description-image .image-caption {
+    font-size: 2.5vmin;
+    font-style: italic;
+}
